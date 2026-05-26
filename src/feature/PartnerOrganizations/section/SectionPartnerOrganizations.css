@@ -1,0 +1,47 @@
+.SectionPartnerOrganizations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 50px 0px 70px 0px;
+
+    font-family: "Inter", sans-serif;
+
+    background-color: #FEFACD;
+}
+
+.SectionPartnerOrganizationsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    max-width: 1600px;
+
+    & h3 {
+        font-size: 34px;
+        width: 80%;
+        max-width: 400px;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+}
+
+.SectionPartnerOrganizationsContainerLogos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    gap: 60px;
+
+    & img {
+        width: 80%;
+        max-width: 400px;
+        height: auto;
+        border-radius: 20px;
+    }
+}
