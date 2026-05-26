@@ -3,6 +3,7 @@ import { Layout } from "./Layout";
 import Home from "./feature/Home/Home";
 import { PagePartnerOrganizations } from "./feature/PartnerOrganizations/page/PagePartnerOrganizations";
 import { ScrollToTop } from "./components/ScrollToTop";
+import { LecturesPage } from "./feature/Lectures";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
           <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/partner-organizations/:id" element={<PagePartnerOrganizations />} />
+              <Route path="/lectures" element={<LecturesPage />} />
           </Routes>
         </Layout>
       </Router>

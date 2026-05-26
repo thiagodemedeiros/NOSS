@@ -1,0 +1,22 @@
+.lecturePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    padding: 180px 0px 70px 0px;
+
+    min-height: 100vh;
+    width: 100%;
+
+    font-family: "Inter", sans-serif;
+}
+
+.lecturePageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    width: 80%;
+}
