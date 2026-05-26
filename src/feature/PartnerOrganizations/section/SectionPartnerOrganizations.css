@@ -8,7 +8,7 @@
 
     font-family: "Inter", sans-serif;
 
-    background-color: #FEFACD;
+    background-color: #fdfcf1;
 }
 
 .SectionPartnerOrganizationsContainer {
@@ -23,7 +23,7 @@
     & h3 {
         font-size: 34px;
         width: 80%;
-        max-width: 400px;
+        max-width: 600px;
         text-align: center;
         font-weight: 700;
         margin-bottom: 40px;
@@ -37,10 +37,14 @@
     justify-content: center;
 
     gap: 60px;
+}
+
+.PartnerOrganizationsLink {
+    width: 80%;
+    max-width: 350px;
 
     & img {
-        width: 80%;
-        max-width: 400px;
+        width: 100%;
         height: auto;
         border-radius: 20px;
     }

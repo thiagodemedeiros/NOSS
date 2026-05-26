@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { partnerOrganizations , type PartnerOrganization } from "../data/PartnerOrganizations";
 import "./PagePartnerOrganizations.css";
+import { SectionPartnerOrganizations } from "../section/SectionPartnerOrganizations";
 
 export const PagePartnerOrganizations = () => {
     const { id } = useParams<{id : string}>();
@@ -19,6 +20,7 @@ export const PagePartnerOrganizations = () => {
                     Clique, e acesse a pagina oficial do nosso parceiro!
                 </a>
             </div>
+            <SectionPartnerOrganizations id={id}/>
         </section>
     )
 };
