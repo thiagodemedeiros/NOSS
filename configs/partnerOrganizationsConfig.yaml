@@ -5,7 +5,7 @@ partnerOrganizations:
     localization: "Global / Estados Unidos"
     description: "A Open Source Initiative é uma das principais organizações globais do ecossistema de open source e atua diretamente na definição, promoção e proteção do conceito de Open Source Software.\n\nO NOSS contará com participação confirmada de representante da OSI na programação do evento."
     link: "https://opensource.org/"
-    image: "src/feature/PartnerOrganizations/data/img/img1.webp"
+    image: "https://camo.githubusercontent.com/61c8bf459c3b5439a16b707b7c9c29c2de78e3e0e44b5f4557f45811d759f460/68747470733a2f2f69302e77702e636f6d2f6f70656e736f757263652e6f72672f77702d636f6e74656e742f75706c6f6164732f323032332f30332f63726f707065642d4f53492d686f72697a6f6e74616c2d6c617267652e706e673f6669743d363430253243323239267175616c6974793d38302673736c3d31"
 
   - name: "Universidade Brasileira Livre"
     id: "2"
@@ -13,7 +13,7 @@ partnerOrganizations:
     localization: "Brasil (remoto)"
     description: "A Universidade Livre Brasileira é um projeto inspirado na Open Source Society University (OSSU). É uma comunidade sem fins lucrativos de apoio de estudantes de todos os níveis que ajudam uns aos outros e compartilham suas experiências e conhecimentos em torno de diferentes currículos de código aberto.\n\nO NOSS contará com participação confirmada de representante da UBL na programação do evento."
     link: "https://ulivre.dev/"
-    image: "src/feature/PartnerOrganizations/data/img/img2.png"
+    image: "https://raw.githubusercontent.com/Universidade-Livre/imagens/main/logos/PNG/Logo-sem-fundo-padr%C3%A3o/LOGO-UBL-SEM-FUNDO-09.png"
 
   - name: "Python Floripa"
     id: "3"
@@ -21,7 +21,7 @@ partnerOrganizations:
     localization: "Florianópolis, Brasil"
     description: "A Python Floripa é uma comunidade regional que reúne entusiastas da linguagem Python em encontros mensais voltados à troca de conhecimento, networking e fortalecimento do ecossistema de tecnologia da Grande Florianópolis. Mais do que uma comunidade sobre uma linguagem, é um espaço de conexão entre pessoas, ideias e iniciativas do mundo tech.\n\nNo NOSS, a Python Floripa participará com uma Palestra ao vivo no formato híbrido - enquanto acontece o 96° meetup da comunidade no mesmo dia."
     link: "https://python.floripa.br/"
-    image: "src/feature/PartnerOrganizations/data/img/img3.jpeg"
+    image: "https://raw.githubusercontent.com/cumbucadev/NOSS/main/2026/assets/images/python_floripa.jpeg"
 
   - name: "Tech Floripa"
     id: "4"
@@ -29,4 +29,4 @@ partnerOrganizations:
     localization: "Florianópolis, Brasil"
     description: "A Tech Floripa é um hub de eventos de tecnologia de Florianópolis e região, criado para fortalecer comunidades, produtores de eventos e iniciativas ligadas ao ecossistema de inovação. A plataforma apoia a divulgação de eventos, a gestão de inscrições, o controle de participantes e a emissão de certificados, além de conectar organizadores a espaços, apoiadores, patrocinadores, empresas, oportunidades de mercado e outros agentes estratégicos da comunidade tech.\n\nNo NOSS, a Tech Floripa participa da gestão do evento, atuando na organização das inscrições, na emissão de certificados e na realização de sorteios."
     link: "https://tech.floripa.br/"
-    image: "src/feature/PartnerOrganizations/data/img/img4.jpeg"
+    image: "https://github.com/cumbucadev/NOSS/raw/main/2026/assets/images/tech_floripa_black_background.jpeg"
