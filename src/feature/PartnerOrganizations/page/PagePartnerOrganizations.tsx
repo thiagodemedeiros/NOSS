@@ -1,13 +1,29 @@
 import { useParams } from "react-router-dom";
-import { partnerOrganizations , type PartnerOrganization } from "../data/PartnerOrganizations";
+import { type PartnerOrganization } from "../data/PartnerOrganizations";
 import "./PagePartnerOrganizations.css";
 import { SectionPartnerOrganizations } from "../section/SectionPartnerOrganizations";
+import partnerOrganizationsConfig from "../../../../configs/partnerOrganizationsConfig.yaml?raw";
+import { parse } from "yaml";
+
+const allPartnerOrganizations = 
+    parse(partnerOrganizationsConfig) as { partnerOrganizations: PartnerOrganization[] };
+const partners = allPartnerOrganizations.partnerOrganizations;
 
 export const PagePartnerOrganizations = () => {
     const { id } = useParams<{id : string}>();
-    const partner = partnerOrganizations.find((p : PartnerOrganization) => (
+    const partner = partners.find((p : PartnerOrganization) => (
         p.id === id
     ))
+
+    if (!partner)
+        return (
+            <section className="PagePartnerOrganizations">
+                <div className="PagePartnerOrganizationsContainer">
+                    <h3>Parceiro não encontrado</h3>
+                </div>
+                <SectionPartnerOrganizations id={id}/>
+            </section>
+        )
 
     return(
         <section className="PagePartnerOrganizations">

@@ -1,7 +1,12 @@
-import { partnerOrganizations , type PartnerOrganization } from "../data/PartnerOrganizations";
+import { type PartnerOrganization } from "../data/PartnerOrganizations";
 import { Link } from "react-router-dom";
 import "./SectionPartnerOrganizations.css";
-import { useEffect } from "react";
+import partnerOrganizationsConfig from "../../../../configs/partnerOrganizationsConfig.yaml?raw";
+import { parse } from "yaml";
+
+const allPartnerOrganizations = 
+    parse(partnerOrganizationsConfig) as { partnerOrganizations: PartnerOrganization[] };
+const partners = allPartnerOrganizations.partnerOrganizations;
 
 interface SectionPartnerOrganizationsProps {
     id?: string;
@@ -11,10 +16,6 @@ export const SectionPartnerOrganizations =
     (
         { id }: SectionPartnerOrganizationsProps
     ) => {
-
-    useEffect(() => {
-        console.log(id)
-    }, [id]);
 
     return (
         <section className="SectionPartnerOrganizations">
@@ -30,13 +31,13 @@ export const SectionPartnerOrganizations =
                 {
                     id
                     ?
-                    partnerOrganizations
+                    partners
                     .filter((partner: PartnerOrganization) => partner.id !== id)
                     .map((partner: PartnerOrganization) => (
                         <PartnerOrganizationsLink key={partner.id} id={partner.id} image={partner.image} />
                     ))
                     :
-                    partnerOrganizations.map((partner: PartnerOrganization) => (
+                    partners.map((partner: PartnerOrganization) => (
                         <PartnerOrganizationsLink key={partner.id} id={partner.id} image={partner.image} />
                     ))
                 }
