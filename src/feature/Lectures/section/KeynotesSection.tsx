@@ -10,7 +10,7 @@ const keynotesData = AllKeynotesData.AllKeynotesData;
 export const KeynotesSection = () => {
     return (
         <div className="keynotesSection">
-            <h3>Nossos Keynotes:</h3>
+            <h3>Nossas Keynotes:</h3>
             <div className="keynotesSectionAllCards">
                 {keynotesData.map((keynote) => (
                     <div key={keynote.id} className="keynotesCards">
