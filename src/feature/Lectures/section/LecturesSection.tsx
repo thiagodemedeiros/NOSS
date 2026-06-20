@@ -1,6 +1,6 @@
 import { allLecturesData } from "../data/AllLecturesData";
 import { allPanelsData } from "../data/AllPanelsData";
-import "./LecturesSection.css";
+import "./styles/LecturesSection.css";
 
 export const LecturesSection = () => {
     return (

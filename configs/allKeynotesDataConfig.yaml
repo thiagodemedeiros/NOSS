@@ -1,8 +1,8 @@
-keynotes:
-    name: "Paloma Oliveira"
+AllKeynotesData:
+  - name: "Paloma Oliveira"
     id: "1"
     bio: "Como tecnologista da Sovereign Tech Agency, contribuo para a definição de infraestruturas digitais abertas essenciais para a soberania digital global, bem como seu fortalecimento através de investimentos diretos e diversos programas.\n\nEngajada na exploração crítica das intersecções entre arte, tecnologia, minha perspectiva é socio-técnica-ecológica: tecnologia não é neutra, e as escolhas sobre quem a mantém, como é governada e por quem é acessada têm consequências profundas para a autonomia coletiva, incluindo não humanos. Envolvida na governança e organização de comunidades FOSS como membra do conselho do Python Software Verband, integrante de program committees da Open JS Foundation, FOSS Backstage e PyCon DE & PyData, e organizadora das PyLadies Alemanha, co-fundadora do Zentrum für Netzkunst (centro para a net arte), onde esse compromisso com tecnologia, equidade e cuidado encontra sua dimensão cultural e artística."
-    photoUrl: "https://github.com/cumbucadev/NOSS/raw/2026-atualiza-grade/2026/assets/images/participantes/paloma-oliveira.jpeg"
+    photoUrl: "https://github.com/cumbucadev/NOSS/raw/main/2026/assets/images/participantes/paloma-oliveira.jpeg"
     pronouns: "ela/dela"
     linkedIn: "https://www.linkedin.com/in/discombobulateme/"
     github: "https://github.com/discombobulateme"
@@ -14,6 +14,28 @@ keynotes:
         - "Como ela define infraestrutura digital aberta como bem público"
         - "Quais programas existem"
         - "Como candidatar um projeto ou individualmente"
+      infos:
+        typeOfLecture: "Keynote"
+        category: "Outro"
+        nivel: "Iniciante"
+        experienceOnOpenSource: "Básico"
+        language: "Português"
+    
+  - name: "Marylia Gutierrez"
+    id: "2"
+    bio: "Marylia é uma Engenheira de Software na Grafana Labs, com foco em Observabilidade com OpenTelemetry. No projeto do OpenTelemetry, ela é parte do Comitê de Governância, aprovadora do JavaScript SDK, Comunicações e Convenções Semânticas de Bancos de Dados, e mantenedora da localização em Português e experiência do contribuidor."
+    photoUrl: "https://github.com/cumbucadev/NOSS/raw/main/2026/assets/images/participantes/marylia-gutierrez.png"
+    pronouns: "ela/dela"
+    linkedIn: "https://www.linkedin.com/in/maryliag/"
+    github: "https://github.com/maryliag"
+    lecture:
+      title: "Open Source em Escala"
+      description: "Utilizando o OpenTelemetry como estudo de caso, a palestra mostrará como projetos da CNCF evoluem da criação à adoção global, os desafios enfrentados ao longo dessa jornada e as oportunidades para quem deseja contribuir com tecnologias abertas utilizadas por organizações do mundo inteiro."
+      topics:
+        - "Governança em projetos globais"
+        - "Colaboração em comunidades distribuídas"
+        - "Crescimento sustentável de ecossistemas FLOSS"
+        - "Tomada de decisão em larga escala"
       infos:
         typeOfLecture: "Keynote"
         category: "Outro"

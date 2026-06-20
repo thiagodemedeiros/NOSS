@@ -1,16 +1,22 @@
-import { allKeynotesData } from "../data/AllKeynotesData";
-import "./KeynotesSection.css";
+import AllKeynotesDataConfig from "../../../../configs/allKeynotesDataConfig.yaml?raw";
+import { type Keynotes} from "../data/IAllKeynotesData"
+import "./styles/KeynotesSection.css";
+import { parse } from "yaml";
+
+const AllKeynotesData = 
+    parse(AllKeynotesDataConfig) as { AllKeynotesData: Keynotes[] };
+const keynotesData = AllKeynotesData.AllKeynotesData;
 
 export const KeynotesSection = () => {
     return (
         <div className="keynotesSection">
             <h3>Nossos Keynotes:</h3>
             <div className="keynotesSectionAllCards">
-                {allKeynotesData.map((lecture) => (
-                    <div key={lecture.speaker.id} className="keynotesCards">
-                        <h4>{lecture.speaker.name}</h4>
-                        <img src={lecture.speaker.photoUrl} alt={lecture.speaker.name} />
-                        <h5>{lecture.speaker.lecture.title}</h5>
+                {keynotesData.map((keynote) => (
+                    <div key={keynote.id} className="keynotesCards">
+                        <h4>{keynote.name}</h4>
+                        <img src={keynote.photoUrl} alt={keynote.name} />
+                        <h5>{keynote.lecture.title}</h5>
                     </div>
                 ))}
             </div>
